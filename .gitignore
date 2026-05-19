@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Database
+*.db
+*.sqlite3
+prediksi.db
+
+# Model
+model_cabai.keras
+model_cabai.h5
+
+# Dataset (optional - uncomment if you want to track with git)
+# dataset/
+# dataset/*/*.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Streamlit (Biarkan .streamlit/ terunggah agar konfigurasi tema bekerja di Cloud)
+
+# Training artifacts
+training_history.png
+*.log
+
+# Environment variables
+.env
+
